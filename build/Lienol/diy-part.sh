@@ -77,7 +77,7 @@ export kernel_usage="stable"
 # 添加软件包
 sed -i '1i src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
 git clone https://github.com/tty228/luci-app-wechatpush package/luci-app-serverchan
-# echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall;main' >>feeds.conf.default
+echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall;luci-smartdns-dev' >>feeds.conf.default
 # echo 'src-git passwallpackages https://github.com/xiaorouji/openwrt-passwall-packages;main' >>feeds.conf.default
 
 
